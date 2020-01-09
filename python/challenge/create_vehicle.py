@@ -6,7 +6,7 @@ def create_quantity_needed_efficiently(part_name,quantity):
     quantity_needed = quantity
     parts = []
     while quantity_created < quantity_needed:
-        p = create_part(part_name)
+        p = create_single_part(part_name)
         parts.append(p)
     return parts
 
